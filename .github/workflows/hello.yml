@@ -1,0 +1,9 @@
+name: first workflow
+on:
+  push:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greeting
+        run: echo "welcome to the first run"
